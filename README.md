@@ -2,7 +2,7 @@
 
 Action Territoire is a web project created for a hackathon with the association **The Shifters**. The goal is to help people better understand the environmental commitment of French cities by bringing together useful information about local territories.
 
-The team won the Epitech Strasbourg hackathon on **19/01/2026**.
+My team won the Epitech Strasbourg hackathon on **19/01/2026**.
 
 ## About the Project
 
