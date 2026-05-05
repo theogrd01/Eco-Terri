@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Territoire</title>
+    
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/MarkerCluster.css">
+    <link rel="stylesheet" href="css/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#accueil" class="logo">
+                <div class="logo-text">Ac<span>Ter</span></div>
+                <img class="image-logo" src="js/image/Logo-Action-Terri.png" 
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#credits">Crédits</a></li>
+            </ul>
+
+            <button class="menu-toggle" onclick="toggleMenu()">
+                <span id="menu-icon">☰</span>
+            </button>
+        </div>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <ul>
+                <li><a href="#accueil" onclick="toggleMenu()">Accueil</a></li>
+                <li><a href="#map" onclick="toggleMenu()">Map</a></li>
+                <li><a href="#credits" onclick="toggleMenu()">Crédits</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="accueil">
+        <h1><div class="logo1">Bienvenue sur Action<span>Territoire</span></h1></div>
+        <p>Plateforme de visualisation des actions environnementales des communes françaises</p>
+    <section id="infos">
+        <p1>ActionTerritoire permet à chaque citoyen de consulter et comparer les actions environnementales des communes françaises. À travers des données ouvertes et une interface accessible, nous rendons visible l'engagement climatique des territoires pour éclairer vos choix et encourager la transition écologique locale.</p1>
+    </section>
+    <section class = "writing" >
+        <h1>Nos objectifs :</h1>
+    </section>
+    <section id="infos1">
+        <label for="pet-select">&nbsp;</label>
+
+<select name="green" id="objectifs">
+  <option value="environnementaux"> Notions des projets environnementaux</option>
+  <option value="vélos"> Répertoire des piste cyclables</option>
+  <option value="eau">Affichage de la qualité de l'eau</option>
+  <option value="données">Meilleur gestion des données</option>
+  <option value="comparer">Outils de comparaison accessible à tous</option>
+</select>
+</section>
+        <img class="image" src="js/image/Logo-Action-Terri.png">
+        <h1>Carte du Territoire</h1>
+    </section>
+<div class="all">   
+    <section id="map">
+        <div id="carte"></div>
+    </section>
+    <div class="news"></div>
+</div>
+    <section id="credits">
+        <h1>Crédits</h1>
+        <p>Développé par :</p>
+        <ul>
+            <li>Theo MERAH </li>
+            <li>Théo GARDE</li>
+            <li>Evanne KETTERING</li>
+            <li>Théo MAYER</li>
+        </ul>
+
+        <h2>Projet en collaboration avec l'association The Shifters</h2>
+    </section>
+
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet.markercluster.js"></script>
+    <div class="container">
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
